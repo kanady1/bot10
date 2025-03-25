@@ -1,0 +1,27 @@
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <title>بوت التداول الآلي</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>بوت التداول الذكي</h1>
+            <div class="header-buttons">
+                <button id="addUserBtn" class="btn primary">إضافة مستخدم جديد</button>
+                <button id="settingsBtn" class="btn success">إعدادات الحساب</button>
+                <button id="toggleTradingModeBtn" class="btn danger">تبديل وضع التداول</button>
+            </div>
+        </div>
+
+        <div class="trading-mode">
+            <span id="tradingModeText">وضع التداول: وهمي</span>
+        </div>
+    </div>
+
+    <script type="module" src="config.js"></script>
+    <script type="module" src="userManagement.js"></script>
+    <script type="module" src="bot.js"></script>
+</body>
+</html>
